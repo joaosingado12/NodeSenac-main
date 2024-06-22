@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Olá EJS</h1>
+    <% if(nome) { %>
+        <h2>Seja bem vindo <%= nome %>!</h2>
+    <% } else { %>
+        <h2>Seja bem vindo</h2>
+    <% } %>
+
+    <% if(especie=='cao') { %>
+        <img src="/img/dog01.jpg" alt="">
+    <% } else if(especie=='gato') {%>
+        <img src="/img/cat01.jpg" alt="">
+    <% } else { %>
+        <img src="/img/default.png" alt="">
+    <% } %>
+
+</body>
+</html>

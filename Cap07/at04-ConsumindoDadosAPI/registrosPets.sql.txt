@@ -1,0 +1,59 @@
+-- Exemplo 1
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Mel', 'f', 'cachorro', 'golden retriever', 25, 'grande', 4, NULL, '2024-06-15 10:15:00', '2024-06-15 10:15:00', 2);
+
+-- Exemplo 2
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Frajola', 'm', 'gato', 'persa', 4, 'médio', 5, 'asma', '2024-06-15 11:20:00', '2024-06-15 11:20:00', 3);
+
+-- Exemplo 3
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Pipoca', 'f', 'coelho', 'holland lop', 1.5, 'pequeno', 2, NULL, '2024-06-15 12:30:00', '2024-06-15 12:30:00', 1);
+
+-- Exemplo 4
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Max', 'm', 'cachorro', 'labrador', 30, 'grande', 3, NULL, '2024-06-15 13:45:00', '2024-06-15 13:45:00', 4);
+
+-- Exemplo 5
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Bolinha', 'f', 'gato', 'vira-lata', 3, 'médio', 1, NULL, '2024-06-15 14:55:00', '2024-06-15 14:55:00', 5);
+
+-- Exemplo 6
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Rex', 'm', 'cachorro', 'pastor alemão', 28, 'grande', 2, 'displasia de quadril', '2024-06-15 15:10:00', '2024-06-15 15:10:00', 2);
+
+-- Exemplo 7
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Luna', 'f', 'cachorro', 'poodle', 7, 'pequeno', 6, 'artrite', '2024-06-15 16:20:00', '2024-06-15 16:20:00', 3);
+
+-- Exemplo 8
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Branquinho', 'm', 'gato', 'siamês', 4, 'médio', 4, NULL, '2024-06-15 17:30:00', '2024-06-15 17:30:00', 4);
+
+-- Exemplo 9
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Lupi', 'm', 'cachorro', 'shih tzu', 6, 'pequeno', 5, 'alergia', '2024-06-15 18:45:00', '2024-06-15 18:45:00', 5);
+
+-- Exemplo 10
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Nina', 'f', 'gato', 'persa', 3.5, 'médio', 2, NULL, '2024-06-15 19:55:00', '2024-06-15 19:55:00', 1);
+
+-- Exemplo 11
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Thor', 'm', 'cachorro', 'rottweiler', 40, 'grande', 3, NULL, '2024-06-15 20:10:00', '2024-06-15 20:10:00', 2);
+
+-- Exemplo 12
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Lili', 'f', 'coelho', 'mini lop', 1, 'pequeno', 1, NULL, '2024-06-15 21:20:00', '2024-06-15 21:20:00', 3);
+
+-- Exemplo 13
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Zeus', 'm', 'cachorro', 'bulldog francês', 12, 'médio', 4, 'problemas respiratórios', '2024-06-15 22:30:00', '2024-06-15 22:30:00', 4);
+
+-- Exemplo 14
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Mia', 'f', 'gato', 'vira-lata', 2.5, 'médio', 2, NULL, '2024-06-15 23:45:00', '2024-06-15 23:45:00', 5);
+
+-- Exemplo 15
+INSERT INTO `amigo_do_pet`.`pets` (`nome`, `sexo`, `especie`, `raca`, `peso`, `tamanho`, `idade`, `doenca`, `createdAt`, `updatedAt`, `usuarioId`)
+VALUES ('Bob', 'm', 'cachorro', 'labrador', 35, 'grande', 5, 'displasia de quadril', '2024-06-16 00:55:00', '2024-06-16 00:55:00', 1);

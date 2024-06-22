@@ -3,8 +3,6 @@ const sequelize = require('../bdConexao')
 const usuario = new require('./usuario')
 class Pet extends Model{}
 
-
-
 Pet.init({
     nome: {
         type: DataTypes.STRING(50),

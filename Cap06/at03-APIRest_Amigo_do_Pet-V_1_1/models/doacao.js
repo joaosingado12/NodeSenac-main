@@ -3,6 +3,7 @@ const sequelize = require('../bdConexao')
 const usuario = new require('./usuario')
 const pet = new require('./pet')
 class Doacao extends Model{}
+
 Doacao.init({
     data_interesse: {
         type:Sequelize.DATEONLY,
@@ -21,6 +22,7 @@ Doacao.init({
       modelName:'doacoes'
     }
   )
+  
   pet.hasMany(Doacao) //Muitos Pets tem muitas Doações - M-p-M
   Doacao.belongsTo(pet)
 
